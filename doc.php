@@ -40,12 +40,9 @@ e tu l’accazzi.";
     </p>
 
     <p>
-
-    </p>
-
-    <p>
         <?php echo $paragrafo_censurato ?>
     </p>
+
 
 </body>
 </html>
