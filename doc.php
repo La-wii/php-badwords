@@ -21,6 +21,12 @@ e tu l’accazzi.";
 <?php $paragrafo_censurato = str_replace ('Lonfo', '***', $paragrafo);
 ?>
 
+<?php $sostituici= $_GET["sostituisci"]?>
+
+<?php $paragrafo_censurato_due = str_replace ($sostituici, '***', $paragrafo);
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +48,11 @@ e tu l’accazzi.";
     <p>
         <?php echo $paragrafo_censurato ?>
     </p>
+
+    <p>
+        <?php echo $paragrafo_censurato_due ?>
+    </p>
+
 
 
 </body>
