@@ -1,8 +1,4 @@
-<?php
-$titolo="Il Lonfo";
-?>
-
-
+<?php $titolo="Il Lonfo"; ?>
 
 <?php
 $paragrafo="Il Lonfo non vaterca né gluisce
@@ -22,6 +18,10 @@ t’alloppa, ti sbernecchia;
 e tu l’accazzi.";
 ?>
 
+<?php $paragrafo_censurato = str_replace ('Lonfo', '***', $paragrafo);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,8 +34,18 @@ e tu l’accazzi.";
     <h1>
         <?php echo $titolo ?>
     </h1>
+
     <p>
         <?php echo $paragrafo ?>
     </p>
+
+    <p>
+
+    </p>
+
+    <p>
+        <?php echo $paragrafo_censurato ?>
+    </p>
+
 </body>
 </html>
