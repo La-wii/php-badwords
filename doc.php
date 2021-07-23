@@ -18,8 +18,12 @@ t’alloppa, ti sbernecchia;
 e tu l’accazzi.";
 ?>
 
+<?php $titolo_due="Censura creando nuova variabile + str_replace"; ?>
+
 <?php $paragrafo_censurato = str_replace ('Lonfo', '***', $paragrafo);
 ?>
+
+<?php $titolo_tre="Censura creando nuova variabile .GET + str_replace"; ?>
 
 <?php $sostituici= $_GET["sostituisci"]?>
 
@@ -45,9 +49,17 @@ e tu l’accazzi.";
         <?php echo $paragrafo ?>
     </p>
 
+    <h2>
+        <?php echo $titolo_due ?>
+    </h2>
+
     <p>
         <?php echo $paragrafo_censurato ?>
     </p>
+
+    <h2>
+        <?php echo $titolo_tre ?>
+    </h2>
 
     <p>
         <?php echo $paragrafo_censurato_due ?>
