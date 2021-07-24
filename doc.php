@@ -30,6 +30,9 @@ e tu l’accazzi.";
 <?php $paragrafo_censurato_due = str_replace ($sostituici, '***', $paragrafo);
 ?>
 
+<?php $paragrafo_lunghezza = strlen($paragrafo);
+?>
+
 
 
 <!DOCTYPE html>
@@ -47,6 +50,11 @@ e tu l’accazzi.";
 
     <p>
         <?php echo $paragrafo ?>
+    </p>
+
+    <p> 
+        La lunghezza del paragrafo è:
+        <?php echo $paragrafo_lunghezza ?>
     </p>
 
     <h2>
