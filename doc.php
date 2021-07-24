@@ -33,6 +33,8 @@ e tu l’accazzi.";
 <?php $paragrafo_lunghezza = strlen($paragrafo);
 ?>
 
+<?php $paragrafo_cerca = strpos($paragrafo, 'Lonfo');
+?>
 
 
 <!DOCTYPE html>
@@ -50,6 +52,11 @@ e tu l’accazzi.";
 
     <p>
         <?php echo $paragrafo ?>
+    </p>
+
+    <p>
+        La posizione della parola Lonfo è:
+        <?php echo $paragrafo_cerca ?>
     </p>
 
     <p> 
