@@ -36,6 +36,14 @@ e tu l’accazzi.";
 <?php $paragrafo_cerca = strpos($paragrafo, 'Lonfo');
 ?>
 
+<?php $titolo_quattro = 'Paragrafo formattato con lettere maiuscole';
+?>
+
+<?php $paragrafo_maiscolo = ucwords($paragrafo);
+?>
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,6 +86,14 @@ e tu l’accazzi.";
 
     <p>
         <?php echo $paragrafo_censurato_due ?>
+    </p>
+
+    <h2>
+        <?php echo $titolo_quattro ?>
+    </h2>
+    
+    <p>
+        <?php echo $paragrafo_maiscolo ?>
     </p>
 
 
